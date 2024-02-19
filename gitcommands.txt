@@ -1,0 +1,495 @@
+    1  cd ~/desktop
+    2  ls -lp
+    3  pwd
+    4  mkdir wallmartrepo
+    5  ls
+    6  cd wallmartrepo/
+    7  ls
+    8  ls -la
+    9  clear
+   10  git --version
+   11  git init
+   12  ls -la
+   13  cd .git/
+   14  ls -la
+   15  cd ..
+   16  pwd
+   17  vi dbutils.java
+   18  git status
+   19  vi stringutils.java
+   20  ls
+   21  git status
+   22  exit
+   23  pwd
+   24  cd wallmartrepo/
+   25  ls
+   26  git status
+   27  git config --global user.name "sandeep1610458"
+   28  git config --global user.email "ysandy1610458"
+   29  git config --global --list
+   30  git config --global user.email "ysandy161045"
+   31  git config --global --list
+   32  git config --global user.email "ysandy1610458"
+   33  git config --global --list
+   34  git add .
+   35  git status
+   36  git rm --cached dbutils.java
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "fist commit of db and string"
+   41  git remote add wmr https://github.com/san-123-org/wallmartrepo.git
+   42  git remote -v
+   43  git log
+   44  git log -2
+   45  git push wmr master
+   46  git push wmr master
+   47  vi dbutils.java 
+   48  vi pyth.py
+   49  git status
+   50  git add dbutils.java 
+   51  git status
+   52  git add .
+   53  git status
+   54  git remote add https://github.com/san-123-org/amazon.git
+   55  git remote add amz https://github.com/san-123-org/amazon.git
+   56  git remote -v
+   57  git push amz master
+   58  git commit -m "new files added"
+   59  cat vi dbutils.java 
+   60  git push amz master *.py
+   61  git push amz master pyth.py
+   62  git status
+   63  git log
+   64  git push amz master 
+   65  git log
+   66  exit
+   67  pwd
+   68  cd ~/Desktop/
+   69  cd wallmartrepo/
+   70  ls
+   71  git status
+   72  vi pyth.py 
+   73  git status
+   74  git add .
+   75  cd ~/Desktop/
+   76  cd wallmartrepo/
+   77  ls
+   78  git status
+   79  git remote -v
+   80  git remote remove amz
+   81  git remote -v
+   82  git status
+   83  git reset pyth.py
+   84  git status
+   85  git reset pyth.py
+   86  git status
+   87  git log
+   88  git show ef1b3f066
+   89  git show --pretty="" --name only ef1b3f066
+   90  git show --pretty="" --name -only ef1b3f066
+   91  git show --pretty="" --name-only ef1b3f066
+   92  git config --global --list
+   93  git show ef1b3f066
+   94  git status --pretty="" --name-only ef1b3f066
+   95  git show --pretty="" --name-only ef1b3f066
+   96  git add pyth.py 
+   97  git status
+   98  git commit -m "python file committed as updated "
+   99  git push wmr master 
+  100  git push wmr master 
+  101  vi test.py
+  102  touch test.js
+  103  git status
+  104  git add .
+  105  git clean -n
+  106  git status
+  107  git reset test.py
+  108  git clean -n
+  109  git add .
+  110  git status
+  111  vi dbutils.java 
+  112  git status
+  113  git add dbutils.java 
+  114  git status
+  115  git reset dbutils.java
+  116  git status
+  117  git add dbutils.java 
+  118  git st
+  119  git commit -m "db modified and 2 test files added "
+  120  git clean -n
+  121  git push wmr master
+  122  git log 
+  123  git log c4f3b3947
+  124  git show c4f3b3947
+  125  git revert c4f3b3947
+  126  cat dbutils.java 
+  127  git status
+  128  git push wmr master -f
+  129  git log dbutils.java
+  130  clear
+  131  clear
+  132  exit
+  133  cd ~/desk
+  134  cd ~/Desktop/
+  135  ls
+  136  cd wallmartrepo/
+  137  ls
+  138  touch .classpath
+  139  touch .settings
+  140  mkdir node_modules
+  141  git status
+  142  touch node_modules/test.txt
+  143  git status
+  144  touch .gitignore
+  145  git status
+  146  vi .gitignore
+  147  git status
+  148  git add .
+  149  git status
+  150  git commit -m "some files ignored , that files added in gitignore file"
+  151  git status
+  152  git push wm master
+  153  git push wmr master
+  154  git branch
+  155  git clean -n
+  156  git clean -f
+  157  git status
+  158  git show
+  159  git log
+  160  git show 1eda839bcb7cc
+  161  git show --pretty="" --name-only 1eda839bcb7cc
+  162  git revert 1eda839bcb7cc
+  163  git revert 1eda839bcb7cc
+  164  git commit -a -m "need to revert, issue happening"
+  165  git commit -a -m "need to revert, issue happening" -f
+  166  git commit -a -m wmr "need to revert, issue happening" 
+  167  git commit -a -m wmr "need to revert, issue happening" -f
+  168  git status
+  169  ls
+  170  vi .gitignore
+  171  git push wmr "need to revert, issue happening" -f
+  172  git push wmr "need to revert, issue happening" 
+  173  git push wmr master -f
+  174  git status
+  175  vi .gitignore
+  176  git status
+  177  git add .
+  178  git status
+  179  git commit -m "ignore file again added"
+  180  git push wmr master
+  181  git branch
+  182  git branch development
+  183  git branch
+  184  git checkout development 
+  185  git branch
+  186  vi dbutils.java 
+  187  git status 
+  188  git add.
+  189  git add .
+  190  git commit -m "db file modified 3 time"
+  191  cat dbutils.java 
+  192  git checkout master 
+  193  ls
+  194  cat dbutils.java 
+  195  git diff development 
+  196  git merge development 
+  197  cat dbutils.java 
+  198  exit
+  199  cd ~/Desktop/
+  200  cd wallmartrepo/
+  201  LS
+  202  git status
+  203  git log
+  204  git clean
+  205  git clean -n
+  206  touch fans
+  207  git clean -n
+  208  git status
+  209  git clean -n
+  210  git clean -f
+  211  git status
+  212  git revert 
+  213  git --config --global user.name
+  214  git init
+  215  git config --global user.name "sandeep1610458"
+  216  git config --global user.email "ysandy1610458"
+  217  git config --global --list
+  218  git remote add wmr https://github.com/san-123-org/wallmartrepo.git
+  219  git remote -v
+  220  git log -2
+  221  git log 6a0e8347b
+  222  git log 6a0e8347b
+  223  git show ef1b3f
+  224  git show --pretty="" --name-only ef1b3f
+  225  git remote -v
+  226  ls
+  227  cat .gitignore 
+  228  git branch
+  229  git checkout development 
+  230  git branch
+  231  git differ master
+  232  git diff master
+  233  git merge master
+  234  git checkout master
+  235  vi code.logs
+  236  git status
+  237  git add .
+  238  git status
+  239  git config --global user.name "sandeep1610458"
+  240  git config --global user.email "ysandy1610458@gmail.com"
+  241  git config --global --list
+  242  git remote add wmr 
+  243  git remote -v
+  244  git commit -m "new log file added"
+  245  git status
+  246  vi san.txt
+  247  git clean -n
+  248  git clean -f
+  249  touch san.txt
+  250  git status
+  251  git add .
+  252  git status
+  253  git reset san.txt
+  254  git status
+  255  git status
+  256  git add .
+  257  git reset
+  258  git add .
+  259  git reset
+  260  git status
+  261  git add .
+  262  git status
+  263  git commit -m " san.txt file added"
+  264  git status
+  265  git push wmr master
+  266  git log 2
+  267  git log -2
+  268  git revert cb884d
+  269  git status
+  270  git push wmr master
+  271  git reset
+  272  git clean
+  273  git clean -n
+  274  exit
+  275  cd ~/Desktop/
+  276  ls
+  277  cd wallmartrepo/
+  278  ls
+  279  git commits
+  280  git status
+  281  git log -2
+  282  git show --pretty="" --name-only 8c8d77
+  283  ls
+  284  vi dbutils.java 
+  285  cat dbutils.java 
+  286  git status 
+  287  git add .
+  288  git commit -m "db udated in master branch"
+  289  git status 
+  290  git checkout development 
+  291  vi stringutils.java 
+  292  git commit -a -m "updated in dev branch"
+  293  git status
+  294  git checkout master 
+  295  git diff development 
+  296  git merge development 
+  297  vi stringutils.java 
+  298  git checkout dbutils.java
+  299  git checkout development 
+  300  cat dbutils.java 
+  301  vi dbutils.java 
+  302  cat dbutils.java 
+  303  git commit -a -m "line commited in dev branch"
+  304  git checkout master 
+  305  vi dbutils.java 
+  306  cat dbutils.java 
+  307  git merge development 
+  308  vi dbutils.java 
+  309  git commit -a -m "merging completed"
+  310  git checkout -b stage
+  311  git branch
+  312  git push wmr master stage
+  313  git push wmr --all
+  314  git branch -d stage
+  315  git checkout master 
+  316  git branch -d stage 
+  317  git push wmr :stage
+  318  git branch
+  319  git checkout branch UAT
+  320  git checkout -b UAT
+  321  vi clogs.java
+  322  git status
+  323  git add .
+  324  git commit -m "clog file added"
+  325  git push wmr UAT 
+  326  git checkout master
+  327  cd ~/desktop
+  328  cd wallmartrepo/
+  329  git init
+  330  ls
+  331  git status
+  332  git add .
+  333  git commit -m "new comit"
+  334  git config --global user.name "
+  335  git config --global --list
+  336  git remote add amz 
+  337  git clean 
+  338  git clean -n
+  339  git clean -f
+  340  git revert 2ghfrt
+  341  git log
+  342  git log -2
+  343  git branch
+  344  git branch -d UAT 
+  345  git branch -D UAT 
+  346  git pull wmr master
+  347  git branch
+  348  git branch UAT
+  349  git branch
+  350  git log -2
+  351  git --pretty="" --name-only 71ddc6c
+  352  git show --pretty="" --name-only 71ddc6c
+  353  git show
+  354  git tags
+  355  git tag
+  356  git tag wallmartv1.0.0
+  357  git tag
+  358  git push wmr master
+  359  git push wmr wallmartv1.0.0
+  360  git tag
+  361  git pull wmr wallmartv1.1.0
+  362  git tag
+  363  git pull wmr master
+  364  git pull wmr wallmartv1.1.0
+  365  git tag
+  366  git push wmr wallmartv1.1.0
+  367  cd ~/Desktop/
+  368  cd wallmartrepo/
+  369  vi dbutils.java 
+  370  git status
+  371  git branch
+  372  cat dbutils.java 
+  373  git checkout development 
+  374  git stash 
+  375  git status
+  376  git stash list
+  377  vi stage.yaml
+  378  cat stage.yaml 
+  379  git stash 
+  380  git status
+  381  git stash
+  382  git stash list
+  383  git checkout development 
+  384  cat stage.yaml 
+  385  git stash list
+  386  git checkout master 
+  387  vi stringutils.java 
+  388  git checkout development 
+  389  git stash list
+  390  vi stringutils.java 
+  391  git checkout master 
+  392  git status
+  393  git stash
+  394  git status
+  395  git stash list
+  396  git stash apply
+  397  git stash apply
+  398  git stash drop
+  399  git stash pop
+  400  git status
+  401  cd ~/Desktop/
+  402  cd wallmartrepo/
+  403  ls
+  404  git status
+  405  git stash
+  406  git stash list
+  407  git show satsh@{0}
+  408  git show --pretty="" --name-only stash@{0}
+  409  git config --list
+  410  git config --global --list
+  411  git init
+  412  git remove -v
+  413  git remote -v
+  414  git stash apply
+  415  git stash 
+  416  git status
+  417  git stash apply 
+  418  git stash list
+  419  git stash pop
+  420  git status
+  421  git stash list
+  422  git stash drop
+  423  git stash drop
+  424  git stash list
+  425  git tag
+  426  git pull wmr tester
+  427  git branch
+  428  git branch
+  429  git pull
+  430  git branch
+  431  git pull wmr tester
+  432  git branch
+  433  git checkout tester
+  434  git branch
+  435  git checkout UAT
+  436  ls
+  437  vi stringutils.java 
+  438  git commit -a -m "CM1"
+  439  vi stringutils.java 
+  440  git commit -a -m "CM2"
+  441  cat stringutils.java 
+  442  git branch
+  443  git tester
+  444  git checkout tester
+  445  git ls
+  446  ls
+  447  cat stringutils.java 
+  448  git log 
+  449  git log
+  450  git checkout UAT 
+  451  git log
+  452  git checkout tester
+  453  cat stringutils.java 
+  454  git cherry-pick  82618674
+  455  cat stringutils.java 
+  456  vi stringutils.java 
+  457  git commit -a -m "new commit"
+  458  vi stringutils.java 
+  459  git commit -a -m "new commit111"
+  460  vi stringutils.java 
+  461  git commit -a -m "new commit111"
+  462  git checkout UAT 
+  463  cat stringutils.java 
+  464  git checkout tester 
+  465  git log
+  466  git checkout UAT 
+  467  git cherry-pick  320d279ce
+  468  vi stringutils.java 
+  469  git commit -a -m "new commited"
+  470  vi stringutils.java 
+  471  cd
+  472  cd ~/Desktop/
+  473  mkdir sushma
+  474  cd sushma/
+  475  mv sushma sushmarepo
+  476  cd ..
+  477  mv sushma sushmarepo
+  478  cd sushmarepo/
+  479  git clone hhtps://github.com/Sushma-pb
+  480  git clone https://github.com/Sushma-pb
+  481  git clone https://github.com/mss-ec-apps-sy/dmart.git
+  482  ls
+  483  cd dmart/
+  484  ls
+  485  vi dbutils.java 
+  486  git remove -v
+  487  git remote -v
+  488  git commit -a -m "sandeep updated as sandeep16"
+  489  git push origin master
+  490  cd ~/Desktop/
+  491  cd wallmartrepo/
+  492  git history
+  493  git --help
+  494  history
+  495  history > hist.txt
